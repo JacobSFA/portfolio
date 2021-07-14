@@ -6,7 +6,11 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { HomeComponent } from './components/home/home.component';
-import { ResumeComponent } from './components/resume/resume.component';
+
+import { AboutComponent } from './components/about/about.component';
+import { ProjectsComponent } from './components/projects/projects.component';
+import { RouterModule } from '@angular/router';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +18,9 @@ import { ResumeComponent } from './components/resume/resume.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    ResumeComponent
+    AboutComponent,
+    ProjectsComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
