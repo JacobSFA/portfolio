@@ -11,6 +11,9 @@ import { AboutComponent } from './components/about/about.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { RouterModule } from '@angular/router';
 import { ContactComponent } from './components/contact/contact.component';
+import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
+
 
 @NgModule({
   declarations: [
@@ -24,7 +27,10 @@ import { ContactComponent } from './components/contact/contact.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxPageScrollCoreModule,
+    NgxPageScrollModule
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
