@@ -13,6 +13,7 @@ import { RouterModule } from '@angular/router';
 import { ContactComponent } from './components/contact/contact.component';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
+import { ThreeDCSSOnlyComponent } from './components/three-dcssonly/three-dcssonly.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
     HomeComponent,
     AboutComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    ThreeDCSSOnlyComponent
   ],
   imports: [
     BrowserModule,
